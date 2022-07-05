@@ -8,5 +8,5 @@ management:
         include:
           - '*'
 ms-greeting-service:
-  greeting: "Ola"
+  greeting: "Hola"
   default-value: "Mundo"
