@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ms-greeting-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+ms-greeting-service:
+  greeting: "Ola"
+  default-value: "Mundo"
